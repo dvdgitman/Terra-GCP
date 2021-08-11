@@ -17,8 +17,8 @@ module "gke" {
   zones                      = [var.zones]
   network                    = var.gke_network
   subnetwork                 = var.gke_subnetwork
-  ip_range_pods              = var.ip_range_pods
-  ip_range_services          = var.ip_range_services
+  ip_range_pods              = ""
+  ip_range_services          = ""
   http_load_balancing        = false
   horizontal_pod_autoscaling = true
   network_policy             = false

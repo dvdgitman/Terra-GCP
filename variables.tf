@@ -49,12 +49,3 @@ variable "gke_subnetwork" {
 }
 
 
-variable "ip_range_pods" {
-  type = string
-  description = "ip_range_pods"
-}
-
-variable "ip_range_services" {
-  type = string
-  description = "ip_range_services "
-}
