@@ -1,5 +1,7 @@
 provider "google" {
-  credentials = file()
+  credentials = var.gcp_credentials
+  project = "terraform-k8"
+  region = "us-west1"
 }
 
 resource "google_container_cluster" "default" {

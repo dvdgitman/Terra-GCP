@@ -17,3 +17,8 @@ variable "initial_node_count" {
 variable "machine_type" {
   default = "n1-standard-1"
 }
+
+variable "gcp_credentials" {
+  type = string
+  description = "location of pass"
+}
