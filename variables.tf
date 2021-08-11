@@ -18,7 +18,7 @@ variable "machine_type" {
   default = "n1-standard-1"
 }
 
-variable "gcp_credentials" {
+variable "credentials" {
   type = string
   description = "location of pass"
 }
