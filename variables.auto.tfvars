@@ -1,2 +1,7 @@
 credentials = "terraform-k8-322615-136f28d1e7de.json"
-
+project_id = "terraform-k8-322615"
+gke_service_account = "cluster@terraform-k8-322615.iam.gserviceaccount.com"
+gke_network = "default"
+gke_subnetwork = "default"
+ip_range_pods = "default"
+ip_range_services   = "default"

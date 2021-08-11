@@ -6,7 +6,11 @@ variable "project" {
   default = "terraform-k8"
 }
 
-variable "location" {
+variable "region" {
+  default = "us-central1"
+}
+
+variable "zones" {
   default = "us-central1"
 }
 
@@ -21,4 +25,36 @@ variable "machine_type" {
 variable "credentials" {
   type = string
   description = "location of pass"
+}
+
+variable "project_id" {
+  type = string
+  description = "location of pass"
+}
+
+
+variable "gke_service_account" {
+  type = string
+  description = "Gke Account name"
+}
+
+variable "gke_network" {
+  type = string
+  description = "network"
+}
+
+variable "gke_subnetwork" {
+  type = string
+  description = "subnetwork"
+}
+
+
+variable "ip_range_pods" {
+  type = string
+  description = "ip_range_pods"
+}
+
+variable "ip_range_services" {
+  type = string
+  description = "ip_range_services "
 }
