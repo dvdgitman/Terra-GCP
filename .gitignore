@@ -1,3 +1,5 @@
 .idea
 credentials
 terraform-k8-322615-136f28d1e7de.json
+terraform.tfstate.backup
+.terraform.lock.hcl
