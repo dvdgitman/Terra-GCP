@@ -11,7 +11,7 @@ resource "google_container_cluster" "default" {
 module "gke" {
   source                     = "terraform-google-modules/kubernetes-engine/google"
   project_id                 = var.project_id
-  name                       = "gke-test-1"
+  name                       = "terra-cluster"
   region                     = var.region
   regional                   = false
   zones                      = [var.zones]
