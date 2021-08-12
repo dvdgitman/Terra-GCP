@@ -1,4 +1,4 @@
-# terra-GCP
+# Terra-GCP
 
 A simple terraform script to deploy a kubernetes cluster in Google Cloud Enviroment.
 
